@@ -7,22 +7,22 @@
 		<key>2.1变量/1/找钱.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>2.1变量/2/找钱（常量）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>2.1变量/3/找钱精简.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>6</integer>
 		</dict>
 		<key>2.1变量/4/找钱 带小数版.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>7</integer>
 		</dict>
 		<key>2.2表达式/1/复合赋值.xcscheme_^#shared#^_</key>
 		<dict>
@@ -42,32 +42,32 @@
 		<key>3.1判断/1/判断关系的运算.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>8</integer>
 		</dict>
 		<key>3.1判断/2/找钱plus.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>9</integer>
 		</dict>
 		<key>3.2分支/1.1/if (?).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>3.2分支/1/if else嵌套.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>11</integer>
 		</dict>
 		<key>3.2分支/2/if else级联.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>2</integer>
 		</dict>
 		<key>3.2分支/2/if-else极连.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>3</integer>
 		</dict>
 		<key>3.2分支/3/switch case多路分支.xcscheme_^#shared#^_</key>
 		<dict>
