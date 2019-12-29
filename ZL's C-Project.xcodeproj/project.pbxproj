@@ -27,6 +27,8 @@
 		C6C069692301BD7300CEA86B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6C069682301BD7300CEA86B /* main.c */; };
 		C6D1A1AE230D9CA400607047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1A1AD230D9CA400607047 /* main.m */; };
 		C6E14C6523122D4000487BD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E14C6423122D4000487BD7 /* main.m */; };
+		C6E37BC623B8C45200FD87BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6E37BC523B8C45200FD87BA /* main.c */; };
+		C6E37BD223B8C78900FD87BA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6E37BD123B8C78900FD87BA /* main.c */; };
 		C6F8AE222316CEBE00DF56D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8AE212316CEBE00DF56D2 /* main.m */; };
 		C6FC95CF23006B4E00293DCF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6FC95CE23006B4E00293DCF /* main.c */; };
 		C6FC95DC23006B8D00293DCF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C6FC95DB23006B8D00293DCF /* main.c */; };
@@ -312,6 +314,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C6E37BC123B8C45200FD87BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C6E37BCD23B8C78900FD87BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C6F8AE122316CE9500DF56D2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +422,10 @@
 		C6D1A1AD230D9CA400607047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6E14C6223122D4000487BD7 /* 3作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3作业"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E14C6423122D4000487BD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6E37BC323B8C45200FD87BA /* 1.出生年 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.出生年"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E37BC523B8C45200FD87BA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C6E37BCF23B8C78900FD87BA /* 2.点赞 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.点赞"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E37BD123B8C78900FD87BA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C6F8AE142316CE9500DF56D2 /* 5.1循环控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.1循环控制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F8AE1F2316CEBE00DF56D2 /* 5.1循环控制/1/For循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.1循环控制/1/For循环"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F8AE212316CEBE00DF56D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -629,6 +653,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6E37BC023B8C45200FD87BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E37BCC23B8C78900FD87BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6F8AE112316CE9500DF56D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -785,15 +823,6 @@
 			path = "2.2表达式";
 			sourceTree = "<group>";
 		};
-		C66FE3822309A80E00FC78BA /* 3.1判断 */ = {
-			isa = PBXGroup;
-			children = (
-				C66FE38D2309A85700FC78BA /* 3.1判断/1/判断关系的运算 */,
-				C66FE3982309AA4C00FC78BA /* 3.1判断/2/找钱plus */,
-			);
-			path = "3.1判断";
-			sourceTree = "<group>";
-		};
 		C66FE38D2309A85700FC78BA /* 3.1判断/1/判断关系的运算 */ = {
 			isa = PBXGroup;
 			children = (
@@ -904,6 +933,79 @@
 			path = "3作业";
 			sourceTree = "<group>";
 		};
+		C6E37BB923B8C0EF00FD87BA /* 3.1判断 */ = {
+			isa = PBXGroup;
+			children = (
+				C66FE38D2309A85700FC78BA /* 3.1判断/1/判断关系的运算 */,
+				C66FE3982309AA4C00FC78BA /* 3.1判断/2/找钱plus */,
+			);
+			path = "3.1判断";
+			sourceTree = "<group>";
+		};
+		C6E37BBA23B8C11400FD87BA /* mooc笔记 */ = {
+			isa = PBXGroup;
+			children = (
+				C66FE36C2309A45300FC78BA /* 2.1变量 */,
+				C66FE3772309A4CA00FC78BA /* 2.2表达式 */,
+				C6E37BB923B8C0EF00FD87BA /* 3.1判断 */,
+				C6D1A1A1230D9C0600607047 /* 3.2分支 */,
+				C61ACBE02315841800141673 /* 4.1循环 */,
+				C6F8AE152316CE9500DF56D2 /* 5.1循环控制 */,
+				C682D48E2322B36A00402560 /* 5.3循环应用 */,
+				C62B533423643A65007A1825 /* 6.12函数 */,
+			);
+			path = "mooc笔记";
+			sourceTree = "<group>";
+		};
+		C6E37BBB23B8C1CD00FD87BA /* PTA */ = {
+			isa = PBXGroup;
+			children = (
+				C6E37BBD23B8C1F300FD87BA /* 基础编程题目集 */,
+				C6E37BBC23B8C1D700FD87BA /* 江财软院PTA */,
+			);
+			path = PTA;
+			sourceTree = "<group>";
+		};
+		C6E37BBC23B8C1D700FD87BA /* 江财软院PTA */ = {
+			isa = PBXGroup;
+			children = (
+				C6E37BBE23B8C40100FD87BA /* 2020江财软件学院pat第五次训练 */,
+			);
+			path = "江财软院PTA";
+			sourceTree = "<group>";
+		};
+		C6E37BBD23B8C1F300FD87BA /* 基础编程题目集 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "基础编程题目集";
+			sourceTree = "<group>";
+		};
+		C6E37BBE23B8C40100FD87BA /* 2020江财软件学院pat第五次训练 */ = {
+			isa = PBXGroup;
+			children = (
+				C6E37BD023B8C78900FD87BA /* 2.点赞 */,
+				C6E37BC423B8C45200FD87BA /* 1.出生年 */,
+			);
+			path = "2020江财软件学院pat第五次训练";
+			sourceTree = "<group>";
+		};
+		C6E37BC423B8C45200FD87BA /* 1.出生年 */ = {
+			isa = PBXGroup;
+			children = (
+				C6E37BC523B8C45200FD87BA /* main.c */,
+			);
+			path = "1.出生年";
+			sourceTree = "<group>";
+		};
+		C6E37BD023B8C78900FD87BA /* 2.点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				C6E37BD123B8C78900FD87BA /* main.c */,
+			);
+			path = "2.点赞";
+			sourceTree = "<group>";
+		};
 		C6F8AE152316CE9500DF56D2 /* 5.1循环控制 */ = {
 			isa = PBXGroup;
 			children = (
@@ -927,15 +1029,9 @@
 		C6FC95C223006B4E00293DCF = {
 			isa = PBXGroup;
 			children = (
+				C6E37BBB23B8C1CD00FD87BA /* PTA */,
+				C6E37BBA23B8C11400FD87BA /* mooc笔记 */,
 				C6FC95CD23006B4E00293DCF /* Hello word! */,
-				C66FE36C2309A45300FC78BA /* 2.1变量 */,
-				C66FE3772309A4CA00FC78BA /* 2.2表达式 */,
-				C66FE3822309A80E00FC78BA /* 3.1判断 */,
-				C6D1A1A1230D9C0600607047 /* 3.2分支 */,
-				C61ACBE02315841800141673 /* 4.1循环 */,
-				C6F8AE152316CE9500DF56D2 /* 5.1循环控制 */,
-				C682D48E2322B36A00402560 /* 5.3循环应用 */,
-				C62B533423643A65007A1825 /* 6.12函数 */,
 				C6FC95CC23006B4E00293DCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -978,6 +1074,8 @@
 				C6555942235FDFAD003EA54C /* 上机作业 */,
 				C62B533323643A65007A1825 /* 6.12函数 */,
 				C62B533E23643A7E007A1825 /* 找钱Pro */,
+				C6E37BC323B8C45200FD87BA /* 1.出生年 */,
+				C6E37BCF23B8C78900FD87BA /* 2.点赞 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1529,6 +1627,40 @@
 			productReference = C6E14C6223122D4000487BD7 /* 3作业 */;
 			productType = "com.apple.product-type.tool";
 		};
+		C6E37BC223B8C45200FD87BA /* 1.出生年 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E37BC723B8C45200FD87BA /* Build configuration list for PBXNativeTarget "1.出生年" */;
+			buildPhases = (
+				C6E37BBF23B8C45200FD87BA /* Sources */,
+				C6E37BC023B8C45200FD87BA /* Frameworks */,
+				C6E37BC123B8C45200FD87BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.出生年";
+			productName = "1.出生年";
+			productReference = C6E37BC323B8C45200FD87BA /* 1.出生年 */;
+			productType = "com.apple.product-type.tool";
+		};
+		C6E37BCE23B8C78900FD87BA /* 2.点赞 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E37BD323B8C78900FD87BA /* Build configuration list for PBXNativeTarget "2.点赞" */;
+			buildPhases = (
+				C6E37BCB23B8C78900FD87BA /* Sources */,
+				C6E37BCC23B8C78900FD87BA /* Frameworks */,
+				C6E37BCD23B8C78900FD87BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.点赞";
+			productName = "2.点赞";
+			productReference = C6E37BCF23B8C78900FD87BA /* 2.点赞 */;
+			productType = "com.apple.product-type.tool";
+		};
 		C6F8AE132316CE9500DF56D2 /* 5.1循环控制 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F8AE1A2316CE9500DF56D2 /* Build configuration list for PBXNativeTarget "5.1循环控制" */;
@@ -1699,6 +1831,12 @@
 					C6E14C6123122D4000487BD7 = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					C6E37BC223B8C45200FD87BA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C6E37BCE23B8C78900FD87BA = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					C6F8AE132316CE9500DF56D2 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -1760,6 +1898,8 @@
 				C6555941235FDFAD003EA54C /* 上机作业 */,
 				C62B533223643A65007A1825 /* 6.12函数 */,
 				C62B533D23643A7E007A1825 /* 找钱Pro */,
+				C6E37BC223B8C45200FD87BA /* 1.出生年 */,
+				C6E37BCE23B8C78900FD87BA /* 2.点赞 */,
 			);
 		};
 /* End PBXProject section */
@@ -1999,6 +2139,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E14C6523122D4000487BD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E37BBF23B8C45200FD87BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E37BC623B8C45200FD87BA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E37BCB23B8C78900FD87BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E37BD223B8C78900FD87BA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2638,6 +2794,42 @@
 			};
 			name = Release;
 		};
+		C6E37BC823B8C45200FD87BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6E37BC923B8C45200FD87BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6E37BD423B8C78900FD87BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6E37BD523B8C78900FD87BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C6F8AE182316CE9500DF56D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3103,6 +3295,24 @@
 			buildConfigurations = (
 				C6E14C6623122D4000487BD7 /* Debug */,
 				C6E14C6723122D4000487BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E37BC723B8C45200FD87BA /* Build configuration list for PBXNativeTarget "1.出生年" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E37BC823B8C45200FD87BA /* Debug */,
+				C6E37BC923B8C45200FD87BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E37BD323B8C78900FD87BA /* Build configuration list for PBXNativeTarget "2.点赞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E37BD423B8C78900FD87BA /* Debug */,
+				C6E37BD523B8C78900FD87BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

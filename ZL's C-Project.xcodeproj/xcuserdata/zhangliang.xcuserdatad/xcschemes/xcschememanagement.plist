@@ -4,25 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>1.出生年.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>2.1变量/1/找钱.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 		<key>2.1变量/2/找钱（常量）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>2.1变量/3/找钱精简.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>2.1变量/4/找钱 带小数版.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>5</integer>
 		</dict>
 		<key>2.2表达式/1/复合赋值.xcscheme_^#shared#^_</key>
 		<dict>
@@ -34,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>2.点赞.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>2作业.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -42,82 +52,82 @@
 		<key>3.1判断/1/判断关系的运算.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>6</integer>
 		</dict>
 		<key>3.1判断/2/找钱plus.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>7</integer>
 		</dict>
 		<key>3.2分支/1.1/if (?).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>3.2分支/1/if else嵌套.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>8</integer>
 		</dict>
 		<key>3.2分支/2/if else级联.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>10</integer>
 		</dict>
 		<key>3.2分支/2/if-else极连.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>9</integer>
 		</dict>
 		<key>3.2分支/3/switch case多路分支.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>13</integer>
 		</dict>
 		<key>3作业.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>14</integer>
 		</dict>
 		<key>4.1循环/1/ while - do while.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>15</integer>
 		</dict>
 		<key>5.1循环控制/1/For循环.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>16</integer>
 		</dict>
 		<key>5.1循环控制/2/for-if-break.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>17</integer>
 		</dict>
 		<key>5.1循环控制/3/循环的嵌套.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>18</integer>
 		</dict>
 		<key>5.2循环控制/4/离开多重循环.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>5.3循环应用/1/计算一个数列S n.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>20</integer>
 		</dict>
 		<key>5.3循环应用/3/计算两个数的最大公约数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>21</integer>
 		</dict>
 		<key>6.12函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>22</integer>
 		</dict>
 		<key>Hello word!.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,7 +137,7 @@
 		<key>找钱Pro.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>23</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
