@@ -1,25 +1,18 @@
-//
-//  main.c
-//  1
-//
-//  Created by 张亮 on 2020/1/7.
-//  Copyright © 2020 张亮. All rights reserved.
-//
 
-#include <stdio.h>
-void exchange(char a[3])
-{
-    char n;
-    if(a[0]>a[1]) {n=a[0];a[0]=a[1];a[1]=n;}
-    if(a[0]>a[2]) {n=a[0];a[0]=a[2];a[2]=n;}
-    if(a[1]>a[2]) {n=a[1];a[1]=a[2];a[2]=n;}
-}
+#include<stdio.h>
 int main()
 {
-    char a[3],b;
-    while(scanf("%c%c%c\n",&a[0],&a[1],&a[2]) != EOF)
+    long long n,m,v;
+    while(scanf("%llx%llx",&n,&m)==2)
     {
-        exchange(a);
-        printf("%c %c %c\n",a[0],a[1],a[2]);
+        v=n+m;
+        if(v<0)
+        {
+            v=-v;
+            printf("-%llX\n",v);
+        }
+        else
+        printf("%llX\n",v);
     }
-}
+     return 0;
+ }

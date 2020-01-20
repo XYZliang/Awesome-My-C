@@ -56,15 +56,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "19D93693-4030-4521-B1F5-0DA69A1EA83C"
+            uuid = "DF462502-15F6-4FEF-945D-4C16FE2BDA66"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ACM&#x8bad;&#x7ec3;/1/main.c"
+            filePath = "ACM&#x8bad;&#x7ec3;/d4/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -72,15 +72,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "027D431E-A649-4712-BD8C-8FAB13FC70AE"
+            uuid = "41743B4F-2AD8-4E24-9E13-59363E43E228"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ACM&#x8bad;&#x7ec3;/1/main.c"
+            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/10.1&#x5b57;&#x7b26;&#x4e32;/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2D10B4A-17A1-463F-A217-5C037ABB2D2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/10.2&#x5b57;&#x7b26;&#x4e32;&#x51fd;&#x6570;/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5745753-A490-4B85-8CA3-62E1A1AED4FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/10.2&#x5b57;&#x7b26;&#x4e32;&#x51fd;&#x6570;/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>

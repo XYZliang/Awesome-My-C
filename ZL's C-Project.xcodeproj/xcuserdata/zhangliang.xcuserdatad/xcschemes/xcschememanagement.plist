@@ -17,7 +17,17 @@
 		<key>10.1字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>33</integer>
+		</dict>
+		<key>10.2.1字符串常用高级函数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
+		<key>10.2字符串函数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
 		</dict>
 		<key>2.1变量/1/找钱.xcscheme_^#shared#^_</key>
 		<dict>
@@ -147,7 +157,7 @@
 		<key>7.2指针动态分配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>34</integer>
 		</dict>
 		<key>Hello word!.xcscheme_^#shared#^_</key>
 		<dict>
@@ -157,7 +167,7 @@
 		<key>L1-1 古风排版.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>32</integer>
 		</dict>
 		<key>L1-1寻找250.xcscheme_^#shared#^_</key>
 		<dict>
@@ -169,10 +179,25 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>b2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
+		<key>c3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
 		<key>clock函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
+		</dict>
+		<key>d4.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>time.xcscheme_^#shared#^_</key>
 		<dict>
@@ -183,6 +208,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>31</integer>
+		</dict>
+		<key>ttest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
 		</dict>
 		<key>找钱Pro.xcscheme_^#shared#^_</key>
 		<dict>
