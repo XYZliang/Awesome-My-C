@@ -7,7 +7,7 @@
 		<key>1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>30</integer>
 		</dict>
 		<key>1.出生年.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>10.1字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>33</integer>
 		</dict>
 		<key>10.2.1字符串常用高级函数.xcscheme_^#shared#^_</key>
 		<dict>
@@ -27,7 +27,7 @@
 		<key>10.2字符串函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>39</integer>
 		</dict>
 		<key>11.1枚举.xcscheme_^#shared#^_</key>
 		<dict>
@@ -38,6 +38,51 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>42</integer>
+		</dict>
+		<key>11.3.1类型定义.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>11.3.2联合.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>12.1.1全局变量.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>12.1.2静态本地变量.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>12.2.1宏定义.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>12.2.2带参数的宏.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
+		<key>12.3.1一个程序多个源代码.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>49</integer>
+		</dict>
+		<key>12.3.2头文件.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
+		<key>13.1.1格式化输入输出.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>51</integer>
 		</dict>
 		<key>2.1变量/1/找钱.xcscheme_^#shared#^_</key>
 		<dict>
@@ -167,7 +212,7 @@
 		<key>7.2指针动态分配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>34</integer>
 		</dict>
 		<key>Hello word!.xcscheme_^#shared#^_</key>
 		<dict>
@@ -177,7 +222,7 @@
 		<key>L1-1 古风排版.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>32</integer>
 		</dict>
 		<key>L1-1寻找250.xcscheme_^#shared#^_</key>
 		<dict>
@@ -187,22 +232,22 @@
 		<key>L1-2 日期格式化.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>25</integer>
 		</dict>
 		<key>b2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>35</integer>
 		</dict>
 		<key>c3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>37</integer>
 		</dict>
 		<key>clock函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>28</integer>
 		</dict>
 		<key>d4.xcscheme_^#shared#^_</key>
 		<dict>
@@ -217,12 +262,12 @@
 		<key>time函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>29</integer>
 		</dict>
 		<key>ttest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>36</integer>
 		</dict>
 		<key>找钱Pro.xcscheme_^#shared#^_</key>
 		<dict>

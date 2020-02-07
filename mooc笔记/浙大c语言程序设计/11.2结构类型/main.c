@@ -66,8 +66,10 @@ struct stu{
 //
 //通过这种方式可以获取成员的值，也可以给成员赋值：
 #include <stdio.h>
+void main1(void);
+void main2(void);
 int main(){
-    struct{
+    struct stu{
         char *name;  //姓名
         int num;  //学号
         int age;  //年龄
@@ -82,8 +84,7 @@ int main(){
     stu1.score = 136.5;
     //读取结构体成员的值
     printf("%s的学号是%d，年龄是%d，在%c组，今年的成绩是%.1f！\n", stu1.name, stu1.num, stu1.age, stu1.group, stu1.score);
-    return 0;
-}
+
 //运行结果：
 //Tom的学号是12，年龄是18，在A组，今年的成绩是136.5！
 
@@ -94,8 +95,124 @@ int main(){
 //    int age;  //年龄
 //    char group;  //所在小组
 //    float score;  //成绩
-//} stu1, stu2 = { "Tom", 12, 18, 'A', 136.5 };
+//}   stu1, = { "Tom", 12, 18, 'A', 136.5 };
+//    stu2=stu1
 //不过整体赋值仅限于定义结构体变量的时候，在使用过程中只能对成员逐一赋值，这和数组的赋值非常类似。
 //
 //需要注意的是，结构体是一种自定义的数据类型，是创建变量的模板，不占用内存空间；
 //结构体变量才包含了实实在在的数据，需要内存空间来存储。
+
+                //C语言结构体数组
+    //所谓结构体数组，是指数组中的每个元素都是一个结构体。
+    //在实际应用中，C语言结构体数组常被用来表示一个拥有相同数据结构的群体，
+    //比如一个班的学生、一个车间的职工等。
+    //在C语言中，定义结构体数组和定义结构体变量的方式类似，请看下面的例子：
+    struct stuu{
+        char *name;  //姓名
+        int num;  //学号
+        int age;  //年龄
+        char group;  //所在小组
+        float score;  //成绩
+    }class[5];
+    //表示一个班级有5个学生。
+
+    //结构体数组在定义的同时也可以初始化，例如：
+    struct stuuu{
+        char *name;  //姓名
+        int num;  //学号
+        int age;  //年龄
+        char group;  //所在小组
+        float score;  //成绩
+    }classs[5] = {
+        {"Li ping", 5, 18, 'C', 145.0},
+        {"Zhang ping", 4, 19, 'A', 130.5},
+        {"He fang", 1, 18, 'A', 148.5},
+        {"Cheng ling", 2, 17, 'F', 139.0},
+        {"Wang ming", 3, 17, 'B', 144.5}
+    };
+    //当对数组中全部元素赋值时，也可不给出数组长度，例如：
+    /*struct stu{
+        .........
+    }class[] = {
+        .........
+    };
+     */
+    //结构体数组的使用也很简单，例如，获取 Wang ming 的成绩：
+    classs[4].score;
+
+    //修改 Li ping 的学习小组：
+    class[0].group = 'B';
+    main1();main2();
+    return 0;
+}
+
+//如果要把一个结构体变量传入一个函数,这个函数只会copy一个新结构体变量,并且copy传入的变量
+//因此和数组不一样,全局变量的数组在别的函数中的修改能保存,而结构体不能
+//所以要及时把结构体变量传出,或者用指针操作(更高效):
+    
+    //当一个指针变量指向结构体时，我们就称它为结构体指针。C语言结构体指针的定义形式一般为：
+    //struct 结构体名 *变量名;
+    
+#include <stdio.h>
+void main1(){
+    struct stu{         //结构体是一种数据类型，编译器不会为它分配内存空间，就像 int、float、char
+        //所以不可能去取一个结构体名的地址，也不能将它赋值给其他变量：
+        char *name;  //姓名
+        int num;  //学号
+        int age;  //年龄
+        char group;  //所在小组
+        float score;  //成绩
+    } stu1 = { "Tom", 12, 18, 'A', 136.5 }, *pstu = &stu1;//也可以在定义结构体的同时定义结构体指针：
+    //注意，结构体变量名和数组名不同，数组名在表达式中会被转换为数组指针，而结构体变量名不会，
+    //无论在任何表达式中它表示的都是整个集合本身，要想取得结构体变量的地址，必须在前面加&
+    //读取结构体成员的值
+    printf("%s的学号是%d，年龄是%d，在%c组，今年的成绩是%.1f！\n", (*pstu).name, (*pstu).num, (*pstu).age, (*pstu).group, (*pstu).score);
+    //通过结构体指针可以获取结构体成员，一般形式为：
+    //(*pointer).memberName
+    //或者：
+    //pointer->memberName
+   /* 第一种写法中，.的优先级高于*，(*pointer)两边的括号不能少。
+    如果去掉括号写作*pointer.memberName，那么就等效于*(pointer.memberName)，这样意义就完全不对了。
+
+    第二种写法中，->(-和>)是一个新的运算符，习惯称它为“箭头”，
+    有了它，可以通过结构体指针直接取得结构体成员；
+    这也是->在C语言中的唯一用途。
+
+    上面的两种写法是等效的，我们通常采用后面的写法，这样更加直观。*/
+    printf("%s的学号是%d，年龄是%d，在%c组，今年的成绩是%.1f！\n", pstu->name, pstu->num, pstu->age, pstu->group, pstu->score);
+}
+
+//结构体变量名代表的是整个集合本身，作为函数参数时传递的整个集合，也就是所有成员，
+//而不是像数组一样被编译器转换成一个指针。如果结构体成员较多，尤其是成员为数组时，
+//传送的时间和空间开销会很大，影响程序的运行效率。所以最好的办法就是使用结构体指针，
+//这时由实参传向形参的只是一个地址，非常快速。
+
+//【示例】计算全班学生的总成绩、平均成绩和以及 140 分以下的人数。
+#include <stdio.h>
+struct stu{
+    char *name;  //姓名
+    int num;  //学号
+    int age;  //年龄
+    char group;  //所在小组
+    float score;  //成绩
+}stus[] = {
+    {"Li ping", 5, 18, 'C', 145.0},
+    {"Zhang ping", 4, 19, 'A', 130.5},
+    {"He fang", 1, 18, 'A', 148.5},
+    {"Cheng ling", 2, 17, 'F', 139.0},
+    {"Wang ming", 3, 17, 'B', 144.5}
+};
+void average(struct stu *ps, int len);
+void main2(){
+    int len = sizeof(stus) / sizeof(struct stu);
+    average(stus, len);
+}
+void average(struct stu *ps, int len){
+    int i, num_140 = 0;
+    float sum = 0;
+    for(i=0; i<len; i++){
+        sum += (ps + i) -> score;
+        if((ps + i)->score < 140) num_140++;
+    }
+    printf("sum=%.2f\naverage=%.2f\nnum_140=%d\n", sum, sum/5, num_140);
+}

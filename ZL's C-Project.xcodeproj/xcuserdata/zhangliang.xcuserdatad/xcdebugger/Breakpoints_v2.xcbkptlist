@@ -120,31 +120,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8E4DF040-01DA-48D1-A240-479CA18E1AC8"
-            shouldBeEnabled = "Yes"
+            uuid = "29AF8DBE-F176-4644-9098-68D493D5B27E"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/11.2&#x7ed3;&#x6784;&#x7c7b;&#x578b;/main.c"
+            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/12.1.2&#x9759;&#x6001;&#x672c;&#x5730;&#x53d8;&#x91cf;/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "abc()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E48ACE3A-1EA7-470C-953F-DFD7D0A2826B"
-            shouldBeEnabled = "No"
+            uuid = "9886DD03-4C45-42E2-B243-2CC7081EA7E0"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/11.2&#x7ed3;&#x6784;&#x7c7b;&#x578b;/main.c"
+            filePath = "mooc&#x7b14;&#x8bb0;/&#x6d59;&#x5927;c&#x8bed;&#x8a00;&#x7a0b;&#x5e8f;&#x8bbe;&#x8ba1;/13.1.1&#x683c;&#x5f0f;&#x5316;&#x8f93;&#x5165;&#x8f93;&#x51fa;/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
