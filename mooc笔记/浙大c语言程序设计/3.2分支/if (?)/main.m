@@ -11,16 +11,16 @@
 int main()
 {
     int a=5,b=6;
-    if (a=b)                        //警告⚠️>>>>>>>>
-                                    //1⃣️b先把自己的值赋值给变量a
-                                    //2⃣️再if（6）进行判断
+    if (a=b)                        //警告>>>>>>>>
+                                    //b先把自己的值赋值给变量a
+                                    //再if（6）进行判断
                                     //if（6）>>>if（！=0）>>>if(成立)>>>执行if
         printf("if输出%d\n",a);
 
     else
         printf("else输出%d\n",b);
 }
-                                    //⚠️：Using the result of an assignment as a condition without parentheses
+                                    //   Using the result of an assignment as a condition without parentheses
                                     //                              ^^             ^^                  ^^
                                     //                          分配，分派，任务    条件，状态             括号
                                     //使用赋值的结果作为没有括号的条件。
