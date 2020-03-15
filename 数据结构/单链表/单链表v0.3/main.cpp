@@ -135,7 +135,7 @@ void nodelist::clean()
 {
     for(node* p=head;p!=NULL;p=p->next)
     {
-        p->value=NULL;
+        p->value;
     }
     cout<< "清理完毕!\n";
 }
@@ -306,7 +306,7 @@ int main()//主函数
     }
     cout<< "是否继续使用该程序?继续请输入1,否则退出程序\n";
     cin>> menu;
-    if(menu)
+    if(menu==1)
         goto menulist;
     else
         nodelist::exit();
