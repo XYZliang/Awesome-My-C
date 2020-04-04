@@ -1,16 +1,13 @@
-//
-//  main.cpp
-//  草稿3
-//
-//  Created by 张亮 on 3/31/20.
-//  Copyright © 2020 张亮. All rights reserved.
-//
-
-#include <iostream>
+#include<iostream>
+#include <iomanip>
 using namespace std;
-int main(int argc, const char * argv[]) {
-    string wrong="数据不合法！";
-    int a=sizeof(wrong);
+
+int main()
+{
+    cout << "-------------------------------" << endl;
+    cout << setiosflags(ios::left) <<"  "<< setw(7) << "日" << setw(7) << "一" << setw(7) << "二" << setw(7) << "三" << setw(7) << "四" << setw(7) << "五" << setw(7) << "六" << resetiosflags(ios::left)
+         << resetiosflags(ios::right) << endl;
+    cout << "-------------------------------" << endl;
     
-    return 0;;
+    cout << "-------------------------------" << endl;
 }
