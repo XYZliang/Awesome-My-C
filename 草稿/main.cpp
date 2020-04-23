@@ -1,121 +1,38 @@
-#include <iostream>
+#include<vector>
+#include<iostream>
+#include <cstring>
 using namespace std;
-int sumDay=730120;
-//int sumDay;
-//int year=2000,month=1,day=1;
-int year,month,day;
-int returnSumDay()
+//头尾不可以有切分字符
+vector<string> spilt(string s,char ch)
 {
-    int n=sumDay;
-    int m[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
-    for(year=1;;year++)//算出年份
+    s.push_back(ch);
+    int start = 0,end = 0,size = (int)s.size();
+    vector<string> vs;
+    
+    for(int i = 0;i < size;i++)
     {
-        if((year%4==0&&year%100!=0)||year%400==0)
+        if(s[i]==ch)
         {
-            if(n<=366)
-                break;
-            else
-                n-=366;
-        }
-        else
-        {
-            if(n<=365)
-                break;
-            else
-                n-=365;
-        }
-        
-    }
-    if((year%4==0&&year%100!=0)||year%400==0)
-        m[2]++;
-    for(month=1;month<=12;month++)
-    {
-        if(n>m[month])
-        {
-            n-=m[month];
-            continue;
-        }
-        else
-        {
-            day=n;
-            break;
+            end = i;
+            string temp = s.substr(start,end-start);
+            start = i+1;
+            vs.push_back(temp);
         }
     }
-    return 0;
+    return vs;
 }
-
-int returnSumDayy()
-{
-    int n=sumDay;
-    int m[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
-    year=1;
-    if(n>=731635)
-    {
-        n-=731635;
-        year=2000;
-    }
-    for(;;year++)//算出年份
-    {
-        if((year%4==0&&year%100!=0)||year%400==0)
-        {
-            if(n<=366)
-                break;
-            else
-                n-=366;
-        }
-        else
-        {
-            if(n<=365)
-                break;
-            else
-                n-=365;
-        }
-        
-    }
-    if((year%4==0&&year%100!=0)||year%400==0)
-        m[2]++;
-    for(month=1;month<=12;month++)
-    {
-        if(n>m[month])
-        {
-            n-=m[month];
-            continue;
-        }
-        else
-        {
-            day=n;
-            break;
-        }
-    }
-    return 0;
-}
-
-int getSumDay()
-{
-    int m[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
-    if((year%4==0&&year%100!=0)||year%400==0)
-        m[2]++;
-    int sum = 0;
-    for(int i = 1;i < year;i++)
-    {
-        sum += 365;
-        if((i%4==0&&i%100!=0)||i%400==0)
-            sum ++;
-    }
-    for(int i = 1;i < month;i++)
-    {
-        sum += m[i];
-    }
-    sum += day;
-    sumDay=sum;
-    return sum;
-}
-
 int main()
 {
-    returnSumDay();
-    cout<<year<<month<<day;
-//    getSumDay();
-//    cout<<sumDay;
-    return 0;
+    char ss[1000000];
+    fgets(ss, 1000000, stdin);
+    ss[strlen(ss)-1]='\0';
+    string s=ss;
+    vector<string> v = spilt(s,' ');
+    for(int i = (int)(v.size()-1);i >= 0;i--)
+    {
+        if(i)
+            cout << v[i]<<" ";
+        else
+            cout << v[i]<<endl;
+    }
 }

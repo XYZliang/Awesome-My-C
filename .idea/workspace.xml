@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb3cca71-1cc0-47cd-9332-2df1f19a59f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C++/实验2/TimeClass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验2/TimeClass.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验2/TimeMain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验3/DateClass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验3/DateClass.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验3/DateMain" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验3/DateMain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验3/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/实验四/Triangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/草稿3/Report.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/project.xcworkspace/xcuserdata/zhangliang.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/project.xcworkspace/xcuserdata/zhangliang.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/xcuserdata/zhangliang.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/xcuserdata/zhangliang.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/xcuserdata/zhangliang.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Awesome My C-Project.xcodeproj/xcuserdata/zhangliang.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello word!/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hello word!/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验2/TimeClass.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验3/DateClass.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验3/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/草稿3/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ak0J5dwXAMxtYGfSvoCtKOGuEr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CLion_Remote" singleton="false" remoteCommand="" symbolFile="" sysroot="">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" version="1">
+      <custom-gdb-server version="1" gdb-connect="" executable="" warmup-ms="0" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-after-download="true" />
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb3cca71-1cc0-47cd-9332-2df1f19a59f2" name="Default Changelist" comment="" />
+      <created>1587264210276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587264210276</updated>
+      <workItem from="1587264213150" duration="235000" />
+      <workItem from="1587264608612" duration="845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="147" width="1072" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587265577423">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="499" y="147" width="1072" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.973@0.23.1680.973" timestamp="1587265577423" />
+    <state x="341" y="148" key="SettingsEditor" timestamp="1587265028051">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="341" y="148" key="SettingsEditor/0.23.1680.973@0.23.1680.973" timestamp="1587265028051" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Hello word" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Hello word" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
