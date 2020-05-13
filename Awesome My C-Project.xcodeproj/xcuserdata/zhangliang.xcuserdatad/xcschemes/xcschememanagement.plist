@@ -4,569 +4,355 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>1.出生年.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>26</integer>
-=======
-			<integer>68</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>69</integer>
 		</dict>
 		<key>10.1字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>33</integer>
-=======
-			<integer>57</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>82</integer>
 		</dict>
 		<key>10.2.1字符串常用高级函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>43</integer>
-=======
-			<integer>6</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>46</integer>
 		</dict>
 		<key>10.2字符串函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>32</integer>
-=======
-			<integer>18</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>61</integer>
 		</dict>
 		<key>11.1枚举.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>66</integer>
-=======
-			<integer>47</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>7</integer>
 		</dict>
 		<key>11.2结构类型.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>13</integer>
-=======
-			<integer>22</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>79</integer>
 		</dict>
 		<key>11.3.1类型定义.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>34</integer>
-=======
-			<integer>8</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>29</integer>
 		</dict>
 		<key>11.3.2联合.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>46</integer>
-=======
-			<integer>25</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>73</integer>
 		</dict>
 		<key>12.1.1全局变量.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>16</integer>
-=======
-			<integer>27</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>62</integer>
 		</dict>
 		<key>12.1.2静态本地变量.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>30</integer>
-=======
-			<integer>9</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>35</integer>
 		</dict>
 		<key>12.2.1宏定义.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>36</integer>
-=======
-			<integer>58</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>83</integer>
 		</dict>
 		<key>12.2.2带参数的宏.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>68</integer>
-=======
-			<integer>31</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>44</integer>
 		</dict>
 		<key>12.3.1一个程序多个源代码.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>61</integer>
-=======
-			<integer>13</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>26</integer>
 		</dict>
 		<key>12.3.2头文件.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>38</integer>
-=======
-			<integer>14</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>67</integer>
 		</dict>
 		<key>13.1.1格式化输入输出.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>25</integer>
-=======
-			<integer>37</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>11</integer>
 		</dict>
 		<key>2.1变量.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>72</integer>
-=======
-			<integer>52</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>13</integer>
 		</dict>
 		<key>2.1变量/1/找钱.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>74</integer>
-=======
-			<integer>34</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>17</integer>
 		</dict>
 		<key>2.1变量/2/找钱（常量）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>49</integer>
-=======
-			<integer>64</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>18</integer>
 		</dict>
 		<key>2.1变量/3/找钱精简.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>6</integer>
-=======
-			<integer>70</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>57</integer>
 		</dict>
 		<key>2.1变量/4/找钱 带小数版.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>59</integer>
-=======
-			<integer>69</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>43</integer>
 		</dict>
 		<key>2.2判断/1/关系符 判断符号.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>39</integer>
-=======
-			<integer>19</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>23</integer>
 		</dict>
 		<key>2.2表达式.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>31</integer>
-=======
-			<integer>38</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>60</integer>
 		</dict>
 		<key>2.2表达式/1/复合赋值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>18</integer>
-=======
-			<integer>23</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>58</integer>
 		</dict>
 		<key>2.2表达式/2/运算符优先级.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>7</integer>
-=======
-			<integer>73</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>30</integer>
 		</dict>
 		<key>2.点赞.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>35</integer>
-=======
-			<integer>28</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>5</integer>
 		</dict>
 		<key>2020江财软件学院pat第十次训练.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>62</integer>
-=======
-			<integer>60</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>4</integer>
+		</dict>
+		<key>2作业.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>3.1判断.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>10</integer>
-=======
-			<integer>71</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>19</integer>
 		</dict>
 		<key>3.1判断/1/判断关系的运算.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>23</integer>
-=======
-			<integer>32</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>72</integer>
 		</dict>
 		<key>3.1判断/2/找钱plus.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>57</integer>
-=======
-			<integer>54</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>21</integer>
 		</dict>
 		<key>3.2分支.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>42</integer>
-=======
-			<integer>24</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
-		</dict>
-		<key>3.2分支/1.1/if (?).xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>66</integer>
 		</dict>
 		<key>3.2分支/1.1/if(?).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>53</integer>
-=======
-			<integer>44</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>52</integer>
 		</dict>
 		<key>3.2分支/1/if else嵌套.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>45</integer>
-=======
-			<integer>59</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>10</integer>
 		</dict>
 		<key>3.2分支/2/if else级联.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>28</integer>
-=======
-			<integer>29</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>48</integer>
 		</dict>
 		<key>3.2分支/2/if-else极连.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>27</integer>
-=======
-			<integer>10</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>8</integer>
 		</dict>
 		<key>3.2分支/3/switch case多路分支.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
 			<integer>24</integer>
-=======
-			<integer>30</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
 		</dict>
 		<key>3.情人节.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>3作业.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>20</integer>
-=======
-			<integer>67</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>80</integer>
 		</dict>
 		<key>4.1循环.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>8</integer>
-=======
-			<integer>39</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>63</integer>
 		</dict>
 		<key>4.1循环/1/ while - do while.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>44</integer>
-=======
-			<integer>53</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>6</integer>
 		</dict>
 		<key>4.1循环/1/while-do while.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>52</integer>
-=======
-			<integer>55</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>41</integer>
 		</dict>
 		<key>5.1循环控制.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>15</integer>
-=======
-			<integer>65</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>27</integer>
 		</dict>
 		<key>5.1循环控制/1/For循环.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>54</integer>
-=======
-			<integer>45</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>77</integer>
 		</dict>
 		<key>5.1循环控制/2/for-if-break.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>21</integer>
-=======
-			<integer>7</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>64</integer>
 		</dict>
 		<key>5.1循环控制/3/循环的嵌套.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>56</integer>
-=======
-			<integer>35</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>33</integer>
 		</dict>
 		<key>5.2循环控制/4/离开多重循环.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>60</integer>
-=======
-			<integer>48</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>78</integer>
 		</dict>
 		<key>5.3循环应用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>5</integer>
-=======
-			<integer>11</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>53</integer>
 		</dict>
 		<key>5.3循环应用/1/计算一个数列S n.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>51</integer>
-=======
-			<integer>72</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>28</integer>
 		</dict>
 		<key>5.3循环应用/3/计算两个数的最大公约数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>64</integer>
-=======
-			<integer>5</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>15</integer>
 		</dict>
 		<key>6.12函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>11</integer>
-=======
-			<integer>56</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>49</integer>
 		</dict>
 		<key>7.2指针动态分配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>22</integer>
-=======
-			<integer>21</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>68</integer>
 		</dict>
 		<key>Hello word!.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>L1-003 个位数统计.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>63</integer>
-=======
-			<integer>61</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>76</integer>
 		</dict>
 		<key>L1-1 古风排版.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>55</integer>
-=======
-			<integer>46</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>70</integer>
 		</dict>
 		<key>L1-1 寻找250.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>14</integer>
-=======
-			<integer>63</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>47</integer>
 		</dict>
 		<key>L1-1寻找250.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>29</integer>
-=======
-			<integer>15</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>51</integer>
 		</dict>
 		<key>L1-2 日期格式化.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>37</integer>
-=======
-			<integer>43</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>45</integer>
+		</dict>
+		<key>b2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>c3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>81</integer>
 		</dict>
 		<key>clock函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>58</integer>
-=======
-			<integer>4</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>32</integer>
+		</dict>
+		<key>company.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
+		<key>d4.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>mooc笔记.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>56</integer>
 		</dict>
 		<key>time.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>47</integer>
-=======
-			<integer>41</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>59</integer>
 		</dict>
 		<key>time函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>73</integer>
-=======
-			<integer>51</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>38</integer>
 		</dict>
 		<key>ttest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>17</integer>
-=======
-			<integer>12</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>16</integer>
 		</dict>
 		<key>上机作业.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>9</integer>
-=======
-			<integer>36</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>50</integer>
 		</dict>
 		<key>中农大 C++语言程序设计.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>4</integer>
-=======
-			<integer>16</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>65</integer>
 		</dict>
 		<key>单链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>41</integer>
-=======
-			<integer>66</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>42</integer>
 		</dict>
 		<key>单链表v0.2.xcscheme_^#shared#^_</key>
 		<dict>
@@ -581,146 +367,67 @@
 		<key>实验2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>65</integer>
-=======
-			<integer>17</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>74</integer>
 		</dict>
 		<key>实验3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>12</integer>
-=======
-			<integer>33</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>36</integer>
 		</dict>
 		<key>实验四.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>48</integer>
-=======
-			<integer>20</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>22</integer>
+		</dict>
+		<key>循环列表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
 		</dict>
 		<key>找钱Pro.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>40</integer>
-=======
-			<integer>50</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>55</integer>
 		</dict>
 		<key>百钱百鸡.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>50</integer>
-=======
-			<integer>42</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>40</integer>
 		</dict>
 		<key>草稿.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>70</integer>
-=======
-			<integer>62</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>20</integer>
+		</dict>
+		<key>草稿2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
 		</dict>
 		<key>草稿3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>67</integer>
+			<integer>31</integer>
+		</dict>
+		<key>顺序栈.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>54</integer>
 		</dict>
 		<key>顺序表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>69</integer>
-=======
-			<integer>49</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>71</integer>
 		</dict>
 		<key>魔术方针.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>71</integer>
-=======
-			<integer>40</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
+			<integer>75</integer>
 		</dict>
 		<key>鸡兔同笼.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-<<<<<<< HEAD
-			<integer>19</integer>
-=======
-			<integer>26</integer>
->>>>>>> b393d37ae64208e363078c7bfdee84ec686e5038
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>C6239E1623C76FBA00F01D1B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C634FAD623BA1AE2008D40C2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C66087682305B14400FE2774</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C6745F1223C4D318008C21B8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C67D9D3B242EFCCF002D998C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C67E7E60242B354700A9BBA9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C68EBD5E240BED2000225CB1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C69B4D40240B60650058AED4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C6B9D9F923C77B1C002411E3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C6D5E88423C776750024651F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C6FC95CA23006B4E00293DCF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>14</integer>
 		</dict>
 	</dict>
 </dict>

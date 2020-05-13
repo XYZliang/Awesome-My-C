@@ -167,6 +167,11 @@ int main() //主函数
 start:
     cout << "请输入需要创建的单链表的长度:";
     cin >> lenth;
+    if(lenth<1)
+    {
+        cout<<"数据不合法！清重新输入！"<<endl;
+        goto start;
+    }
     L.nodelist::creat(lenth);
     cout << "单链表创建成功!（为了方便实验，已经随机生成长度为" << lenth << "的单链表：\n";
     L.nodelist::show(head); //展示单链表
@@ -185,7 +190,7 @@ start:
         cout << "         2. 搜索菜单        6. 销毁单链表  \n";
         cout << "         3. 删除菜单        7. 链表判空    \n";
         cout << "         4. 修改菜单        0. 退出程序    \n";
-        cout << "\n    请选择你的操作[0~6]:";
+        cout << "\n    请选择你的操作[0~7]:";
         cin >> menu;
         cout << "----------------------------------------------------\n";
         node::info *search = new node::info; //定义个info的变量,方便保存遍历(搜索)的启动和返回
@@ -395,11 +400,12 @@ start:
         delete search;
         if (menu)
         {
-            cout << "按任意键返回菜单";
+            cout << "按任意键返回菜单\n";
             fflush(stdin); //清空输入缓存区
             system("pause");
         }
     }
     L.destroy();
+    cout<<"made by"<<"\n     ___  __  ___  _  _ ___  _  _    ___  \n    / _ \\/_ |/ _ \\| || |__ \\| || |  / _ \\ \n   | | | || | (_) | || |_ ) | || |_| | | |\n   | | | || |\\__, |__   _/ /|__   _| | | |\n   | |_| || |  / /   | |/ /_   | | | |_| |\n    \\___/ |_| /_/    |_|____|  |_|  \\___/ \n\n";//Easter eggs
     return (L.exit());
 }

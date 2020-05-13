@@ -1,140 +1,230 @@
 #include <iostream>
-#include <math.h>
+#include <cstring>
 using namespace std;
-class Point //点类
-{
-    friend class Triangle;
 
-private:
-    double x, y;
-public:
-    Point(double x0 = 0, double y0 = 0)
-    {
-        x = x0;
-        y = y0;
-    };                           //初始化横纵坐标
-    void display();              //输出函数
-    void move(double, double);   //移动函数
-    Point operator+(Point pt2);  //两坐标相加
-    double operator^(Point pt2); //两坐标距离
-    double ODistance();          //坐标与原点之间的距离
-} O(0, 0);
+#pragma warning(disable : 4996)
 
-class Triangle //三角形类
-{
-private:
-    Point axy, bxy, cxy; //三点坐标
-    double a, b, c;      //三点边长
-    double A, B, C;      //三角角度(弧度制)
-    int isLegal();       //数据是否合法
+class Data
+{ //日期类
 public:
-    Triangle(Point Pa = O, Point Pb = O, Point Pc = O);
-    double getSideLength(); //求边长
-    double getArea();       //求面积
-    Point getCenter(int);   //求三角形三心：内心，外心，重心
-    //void getLine(char,int);获取三角形指定边的中线，角平分线，垂线。懒得做了。。。。。
+    Data() {}                     //无参构造
+    Data(int yy, int mm, int dd); //有参构造
+    Data(Data &ap);               //拷贝复制
+    int get_year();               //获取年份
+    int get_month();              //获取月份
+    int get_day();                //获取日子
+    void set_year(int y);         //设置年份
+    void set_month(int m);        //设置月份
+    void set_day(int d);          //设置日子
+private:
+    int year;
+    int month;
+    int day;
 };
+Data::Data(int yy, int mm, int dd)
+{
+    year = yy;
+    month = mm;
+    day = dd;
+}
+Data::Data(Data &ap)
+{
+    year = ap.year;
+    month = ap.month;
+    day = ap.day;
+}
+inline int Data::get_day()
+{
+    return day;
+}
+inline int Data::get_month()
+{
+    return month;
+}
+inline int Data::get_year()
+{
+    return year;
+}
+inline void Data::set_day(int d)
+{
+    day = d;
+}
+inline void Data::set_month(int m)
+{
+    month = m;
+}
+inline void Data::set_year(int y)
+{
+    year = y;
+}
 
-void Point::display()
+class People
 {
-    cout << "（" << x << "," << y << "）" << endl;
-}
-void Point::move(double deltaX, double deltaY)
-{
-    x += deltaX;
-    y += deltaY;
-}
-Point Point::operator+(Point plus)
-{
-    Point sum(x + plus.x, y + plus.y);
-    return sum;
-}
-double Point::operator^(Point pt2)
-{
-    return sqrt(pow((x - pt2.x), 2) + pow((y - pt2.y), 2));
-}
-double Point::ODistance()
-{
-    return sqrt(pow(x, 2) + pow(y, 2));
-}
-Triangle::Triangle(Point Pa, Point Pb, Point Pc)
-{
-    axy = Pa;
-    bxy = Pb;
-    cxy = Pc;
-    a = bxy ^ cxy;
-    b = axy ^ cxy;
-    c = axy ^ bxy;
-    if (isLegal())
+public:
+    People(int num, string se, Data birthd, string iid); //序号、性别、生日、id（身份证、学号、教师号等）
+    People(People &tp);
+    People() {}
+    People get_People();
+    ~People() {}
+    void set_number(int num)
     {
-        A = acos((pow(b, 2) + pow(c, 2) - pow(a, 2)) / 2 / b / c);
-        B = acos((pow(a, 2) + pow(c, 2) - pow(b, 2)) / 2 / a / c);
-        C = acos((pow(b, 2) + pow(a, 2) - pow(c, 2)) / 2 / b / a);
+        number = num;
     }
-    else
-        cout << "数据非法，无法围成三角形。请确定数据!";
-}
-int Triangle::isLegal()
-{
-    return (a + b > c && a + c > b && b + c > a) ? 1 : 0;
-}
-double Triangle::getSideLength()
-{
-    return a + b + c;
-}
-double Triangle::getArea()
-{
-    double C = getSideLength();
-    return sqrt(C / 2 * (C / 2 - a) * (C / 2 - b) * (C / 2 - c));
-}
-Point Triangle::getCenter(int model)//model=1为重心，2为内心，3为外心，4为垂心
-{
-    switch (model)
+    void set_sex(string se)
     {
-    case 1: //重心
-        return Point(((axy.x + bxy.x + cxy.x) / 3), ((axy.y + bxy.y + cxy.y) / 3));
-    case 2: //内心
-        return Point(((a * axy.x + b * bxy.x + c * cxy.x) / getSideLength()), ((a * axy.y + b * bxy.y + c * cxy.y) / getSideLength()));
-    case 3: //外心
-    {
-        double x1 = axy.x, y1 = axy.y;
-        double x2 = bxy.x, y2 = bxy.y;
-        double x3 = cxy.x, y3 = cxy.y;
-
-        double a1 = 2 * (x2 - x1);
-        double b1 = 2 * (y2 - y1);
-        double c1 = x2 * x2 + y2 * y2 - x1 * x1 - y1 * y1;
-
-        double a2 = 2 * (x3 - x2);
-        double b2 = 2 * (y3 - y2);
-        double c2 = x3 * x3 + y3 * y3 - x2 * x2 - y2 * y2;
-
-        double x = (c1 * b2 - c2 * b1) / (a1 * b2 - a2 * b1);
-        double y = (a1 * c2 - a2 * c1) / (a1 * b2 - a2 * b1);
-
-        return Point(x, y);
+        sex = se;
     }
-    case 4: //垂心
+    void set_birthday(Data birth)
     {
-        cout << "暂时不支持！";
-    } //暂时无法从三点坐标直接得出垂心，必须用老办法；任意两垂线相交，代码肯定较多。方程的话，代码少，但误差和耗时嘛。。
-    default:
-        cout << "参数错误，请检查";
-        break;
+        birthday = birth;
     }
-    return NULL;
+    void set_id(string iidd)
+    {
+        id = iidd;
+    }
+    int get_number();//获取序号
+    string get_sex();//获取性别
+    Data get_birthday();//获取出生年月
+    string get_id();//获取id
+    void details();//获取详情（输出）
+
+private:
+    int number;
+    string sex;
+    Data birthday;
+    string id;
+};
+inline int People::get_number()
+{ //反正短，做内联函数
+    return number;
 }
+inline string People::get_sex()
+{
+    return sex;
+}
+inline string People::get_id()
+{
+    return id;
+}
+inline Data People::get_birthday()
+{
+    return birthday;
+}
+void People::details()
+{
+    cout << "序号:" << number << endl;
+    cout << "性别:" << sex << endl;
+    cout << "生日:" << birthday.get_year() << "/" << birthday.get_month() << "/" << birthday.get_day() << endl;
+    cout << "ID:" << id << endl;
+}
+People::People(int num, string se, Data birth, string iid) : birthday(birth)
+{
+    number = num;
+    sex = se;
+    id = iid;
+}
+People People::get_People()
+{
+    int num, yy, mm, dd;
+    string ID, se;
+    cout << "请输入序号:";
+    cin >> num;
+    cout << "请输入性别(male 或 female):";
+    cin >> se;
+    cout << "请输入生日(比如2020 01 01):" << endl;
+    cin >> yy >> mm >> dd;
+    cout << "请输入ID:";
+    cin >> ID;
+    Data birth(yy, mm, dd);
+    id = ID;
+    number = num;
+    sex = se;
+    birthday = birth;
+    return *this;
+}
+People::People(People &tp)
+{
+    number = tp.get_number();
+    sex = tp.get_sex();
+    id = tp.get_id();
+    birthday = tp.get_birthday();
+}
+class Student : virtual public People
+{ //学生类，继承people类
+public:
+    char classNo[7];
+    Student(int num, string se, Data birthd, string iid, const char a[7]) : People(num, se, birthd, iid)
+    {
+        strcpy(classNo, a);
+    }
+    ~Student(){};
+    void Show_Student()
+    {
+        cout << "这是学生:" << endl;
+        cout << "班级 :" << classNo << endl;
+    }
+};
+class Teacher : virtual public People
+{ //老师类，继承people类
+public:
+    char principalship[11];
+    char department[21];
+    Teacher(int num, string se, Data birthd, string iid, const char a[11], const char b[21]) : People(num, se, birthd, iid)
+    {
+        strcpy(principalship, a);
+        strcpy(department, b);
+    }
+    Teacher() {}
+    void Show_Teacher()
+    {
+        cout << "这是老师:" << endl;
+        cout << "职务 :" << principalship << endl;
+        cout << "科目 :" << department << endl;
+    }
+};
+class Graduate : virtual public Student
+{ //研究生类，从学生类继承
+public:
+    char subject[21];
+    Teacher adviser;
+    Graduate(int num, string se, Data birthd, string iid, const char a[7], const char c[21], Teacher vt) : People(num, se, birthd, iid), Student(num, se, birthd, iid, a)
+    {
+        strcpy(subject, c);
+        adviser = vt;
+    }
+    ~Graduate() {}
+    void Show_Graduate()
+    {
+        cout << "这是研究生:" << endl;
+        cout << "学科 :" << subject << endl;
+        cout << "～导师信息～:" << endl;
+        cout << "职务 :" << adviser.principalship << endl;
+        cout << "科目 :" << adviser.department << endl;
+        cout << endl;
+    }
+};
 
 int main()
 {
-    Point test1(1,1);
-    Point test2(2,2);
-    Point test3(3,1);
-    Triangle A(test1,test2,test3);
-    cout<<"此三角形的重心为：";
-    A.getCenter(1).display();
-    cout<<"此三角形的内心为：";
-    A.getCenter(2).display();
-    cout<<"此三角形的外为：";
-    A.getCenter(3).display();
+    People xyz;
+    xyz.get_People();
+    cout << endl
+         << "☻☻☻☻☻☻☻☻☻a成员☻☻☻☻☻☻☻☻☻" << endl;
+    xyz.details();
+    Data a(2001, 3, 21);
+    Student b(18, "male", a, "0194240", "软件192");
+    cout << endl
+         << "☻☻☻☻☻☻☻☻☻b成员☻☻☻☻☻☻☻☻☻" << endl;
+    b.Show_Student();
+    Data a1(1900, 3, 22);
+    Teacher c(25, "male", a1, "1614", "班主任", "c++程序设计");
+    cout << endl
+         << "☻☻☻☻☻☻☻☻☻c成员☻☻☻☻☻☻☻☻☻" << endl;
+    c.Show_Teacher();
+    Data a2(1995, 3, 23);
+    Graduate d(22, "female", a2, "0192334", "软件001", "软件", c);
+    cout << endl
+         << "☻☻☻☻☻☻☻☻☻d成员☻☻☻☻☻☻☻☻☻" << endl;
+    d.Show_Graduate();
+    return 0;
 }
